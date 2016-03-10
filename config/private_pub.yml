@@ -1,11 +1,11 @@
 development:
-  #server: "http://localhost:9292/faye"
-  server: "http://192.168.9.247:9292/faye"
+  server: "http://localhost:9292/faye"
+  #server: "http://192.168.9.247:9292/faye"
   secret_token: "secret"
 test:
   server: "http://localhost:9292/faye"
   secret_token: "secret"
 production:
-  server: "http://ramifayeserver.herokuapp.com/faye"
+  server: "http://agile-citadel-97885.herokuapp.com/faye"
   secret_token: "e0317cbedf3ee4930adefd0c64f1ec9638dc05233d7234ce531997da652a4349"
   signature_expiration: 86400 # one day
