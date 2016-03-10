@@ -1,0 +1,12 @@
+/home/iforum/.rvm/rubies/ruby-1.9.3-p551/bin/ruby -r ./siteconf20160310-19127-jkidxg.rb extconf.rb 
+creating Makefile
+
+make  clean
+
+make
+compiling faye_websocket_mask.c
+linking shared-object faye_websocket_mask.so
+
+make  install
+/usr/bin/install -m 0755 faye_websocket_mask.so .gem.20160310-19127-1lbbmwu
+installing default faye_websocket_mask libraries
