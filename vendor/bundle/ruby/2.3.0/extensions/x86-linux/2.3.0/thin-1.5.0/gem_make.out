@@ -1,0 +1,34 @@
+current directory: /home/iforum/workplace/fayeserver/vendor/bundle/ruby/2.3.0/gems/thin-1.5.0/ext/thin_parser
+/home/iforum/.rvm/rubies/ruby-2.3.0/bin/ruby -r ./siteconf20160310-22515-93hssa.rb extconf.rb
+checking for main() in -lc... yes
+creating Makefile
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /home/iforum/workplace/fayeserver/vendor/bundle/ruby/2.3.0/extensions/x86-linux/2.3.0/thin-1.5.0/mkmf.log
+
+current directory: /home/iforum/workplace/fayeserver/vendor/bundle/ruby/2.3.0/gems/thin-1.5.0/ext/thin_parser
+make "DESTDIR=" clean
+
+current directory: /home/iforum/workplace/fayeserver/vendor/bundle/ruby/2.3.0/gems/thin-1.5.0/ext/thin_parser
+make "DESTDIR="
+compiling thin.c
+thin.c: In function ‘Thin_HttpParser_alloc’:
+thin.c:243:3: warning: implicit declaration of function ‘thin_http_parser_init’ [-Wimplicit-function-declaration]
+thin.c: In function ‘Thin_HttpParser_finish’:
+thin.c:295:3: warning: implicit declaration of function ‘thin_http_parser_finish’ [-Wimplicit-function-declaration]
+thin.c:297:3: warning: implicit declaration of function ‘thin_http_parser_is_finished’ [-Wimplicit-function-declaration]
+thin.c: In function ‘Thin_HttpParser_execute’:
+thin.c:335:5: warning: implicit declaration of function ‘thin_http_parser_execute’ [-Wimplicit-function-declaration]
+thin.c:339:5: warning: implicit declaration of function ‘thin_http_parser_has_error’ [-Wimplicit-function-declaration]
+compiling parser.c
+parser.rl: In function ‘thin_http_parser_execute’:
+parser.rl:112:3: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+parser.rl: In function ‘thin_http_parser_finish’:
+parser.rl:142:3: warning: implicit declaration of function ‘thin_http_parser_has_error’ [-Wimplicit-function-declaration]
+parser.rl:144:3: warning: implicit declaration of function ‘thin_http_parser_is_finished’ [-Wimplicit-function-declaration]
+linking shared-object thin_parser.so
+
+current directory: /home/iforum/workplace/fayeserver/vendor/bundle/ruby/2.3.0/gems/thin-1.5.0/ext/thin_parser
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 thin_parser.so ./.gem.20160310-22515-82c1nj

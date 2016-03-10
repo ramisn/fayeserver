@@ -1,0 +1,155 @@
+current directory: /home/iforum/workplace/fayeserver/vendor/bundle/ruby/2.3.0/gems/eventmachine-1.0.1/ext
+/home/iforum/.rvm/rubies/ruby-2.3.0/bin/ruby -r ./siteconf20160310-22404-wewnb9.rb extconf.rb --with-cppflags=-I/usr/local/opt/openssl/include
+checking for rb_trap_immediate in ruby.h,rubysig.h... no
+checking for rb_thread_blocking_region()... no
+checking for inotify_init() in sys/inotify.h... yes
+checking for writev() in sys/uio.h... yes
+checking for rb_wait_for_single_fd()... yes
+checking for rb_enable_interrupt()... no
+checking for rb_time_new()... yes
+checking for sys/event.h... no
+checking for epoll_create() in sys/epoll.h... yes
+creating Makefile
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /home/iforum/workplace/fayeserver/vendor/bundle/ruby/2.3.0/extensions/x86-linux/2.3.0/eventmachine-1.0.1/mkmf.log
+
+current directory: /home/iforum/workplace/fayeserver/vendor/bundle/ruby/2.3.0/gems/eventmachine-1.0.1/ext
+make "DESTDIR=" clean
+
+current directory: /home/iforum/workplace/fayeserver/vendor/bundle/ruby/2.3.0/gems/eventmachine-1.0.1/ext
+make "DESTDIR="
+compiling page.cpp
+cc1plus: warning: command line option ‘-Wdeclaration-after-statement’ is valid for C/ObjC but not for C++ [enabled by default]
+cc1plus: warning: command line option ‘-Wimplicit-function-declaration’ is valid for C/ObjC but not for C++ [enabled by default]
+In file included from project.h:149:0,
+                 from page.cpp:21:
+binder.h:35:34: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+In file included from project.h:150:0,
+                 from page.cpp:21:
+em.h:84:47: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+em.h:85:76: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+em.h:86:56: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+em.h:88:57: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+em.h:89:60: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+em.h:90:58: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+em.h:91:36: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+em.h:93:47: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+em.h:99:42: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+em.h:116:45: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+em.h:125:36: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+In file included from project.h:154:0,
+                 from page.cpp:21:
+eventmachine.h:46:61: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+eventmachine.h:47:112: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+eventmachine.h:48:69: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+eventmachine.h:50:73: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+eventmachine.h:65:75: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+eventmachine.h:66:74: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+eventmachine.h:67:77: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+eventmachine.h:68:41: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+In file included from project.h:154:0,
+                 from page.cpp:21:
+eventmachine.h:103:58: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+eventmachine.h:105:60: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+eventmachine.h:108:41: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+compiling rubymain.cpp
+cc1plus: warning: command line option ‘-Wdeclaration-after-statement’ is valid for C/ObjC but not for C++ [enabled by default]
+cc1plus: warning: command line option ‘-Wimplicit-function-declaration’ is valid for C/ObjC but not for C++ [enabled by default]
+In file included from project.h:149:0,
+                 from rubymain.cpp:20:
+binder.h:35:34: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+In file included from project.h:150:0,
+                 from rubymain.cpp:20:
+em.h:84:47: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+em.h:85:76: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+em.h:86:56: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+em.h:88:57: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+em.h:89:60: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+em.h:90:58: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+em.h:91:36: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+em.h:93:47: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+em.h:99:42: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+em.h:116:45: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+em.h:125:36: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+In file included from project.h:154:0,
+                 from rubymain.cpp:20:
+eventmachine.h:46:61: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+eventmachine.h:47:112: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+eventmachine.h:48:69: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+eventmachine.h:50:73: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+eventmachine.h:65:75: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+eventmachine.h:66:74: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+eventmachine.h:67:77: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+eventmachine.h:68:41: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+In file included from project.h:154:0,
+                 from rubymain.cpp:20:
+eventmachine.h:103:58: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+eventmachine.h:105:60: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+eventmachine.h:108:41: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+compiling em.cpp
+cc1plus: warning: command line option ‘-Wdeclaration-after-statement’ is valid for C/ObjC but not for C++ [enabled by default]
+cc1plus: warning: command line option ‘-Wimplicit-function-declaration’ is valid for C/ObjC but not for C++ [enabled by default]
+In file included from project.h:149:0,
+                 from em.cpp:23:
+binder.h:35:34: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+In file included from project.h:150:0,
+                 from em.cpp:23:
+em.h:84:47: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+em.h:85:76: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+em.h:86:56: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+em.h:88:57: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+em.h:89:60: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+em.h:90:58: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+em.h:91:36: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+em.h:93:47: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+em.h:99:42: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+em.h:116:45: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+em.h:125:36: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+In file included from project.h:154:0,
+                 from em.cpp:23:
+eventmachine.h:46:61: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+eventmachine.h:47:112: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+eventmachine.h:48:69: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+eventmachine.h:50:73: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+eventmachine.h:65:75: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+eventmachine.h:66:74: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+eventmachine.h:67:77: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+eventmachine.h:68:41: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+In file included from project.h:154:0,
+                 from em.cpp:23:
+eventmachine.h:103:58: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+eventmachine.h:105:60: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+eventmachine.h:108:41: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+em.h: In constructor ‘EventMachine_t::EventMachine_t(EMCallback)’:
+em.h:192:7: warning: ‘EventMachine_t::LoopBreakerWriter’ will be initialized after [-Wreorder]
+em.h:168:13: warning:   ‘int EventMachine_t::NumCloseScheduled’ [-Wreorder]
+em.cpp:70:1: warning:   when initialized here [-Wreorder]
+em.cpp: In member function ‘bool EventMachine_t::_RunEpollOnce()’:
+em.cpp:578:37: error: ‘rb_thread_select’ was not declared in this scope
+em.cpp: In member function ‘int SelectData_t::_Select()’:
+em.cpp:835:67: error: ‘rb_thread_select’ was not declared in this scope
+em.cpp: In member function ‘bool EventMachine_t::_RunSelectOnce()’:
+em.cpp:974:40: error: ‘rb_thread_select’ was not declared in this scope
+em.cpp: At global scope:
+em.cpp:1057:74: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+em.cpp:1079:120: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+em.cpp:1265:76: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+em.cpp:1338:70: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+em.cpp:1510:82: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+em.cpp:1593:86: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+em.cpp:1856:81: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+em.cpp:1982:73: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+em.cpp:2046:50: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+em.cpp:2070:54: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+em.cpp:2142:65: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+em.cpp: In member function ‘void EventMachine_t::_ReadLoopBreaker()’:
+em.cpp:1021:50: warning: ignoring return value of ‘ssize_t read(int, void*, size_t)’, declared with attribute warn_unused_result [-Wunused-result]
+em.cpp: In member function ‘int SelectData_t::_Select()’:
+em.cpp:837:1: warning: control reaches end of non-void function [-Wreturn-type]
+em.cpp: In member function ‘void EventMachine_t::SignalLoopBreaker()’:
+em.cpp:282:34: warning: ignoring return value of ‘ssize_t write(int, const void*, size_t)’, declared with attribute warn_unused_result [-Wunused-result]
+make: *** [em.o] Error 1
+
+make failed, exit code 2

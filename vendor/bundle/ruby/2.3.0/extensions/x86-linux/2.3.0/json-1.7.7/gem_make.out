@@ -1,0 +1,17 @@
+current directory: /home/iforum/workplace/fayeserver/vendor/bundle/ruby/2.3.0/gems/json-1.7.7/ext/json/ext/generator
+/home/iforum/.rvm/rubies/ruby-2.3.0/bin/ruby -r ./siteconf20160310-22515-7bnmzh.rb extconf.rb
+creating Makefile
+
+current directory: /home/iforum/workplace/fayeserver/vendor/bundle/ruby/2.3.0/gems/json-1.7.7/ext/json/ext/generator
+make "DESTDIR=" clean
+
+current directory: /home/iforum/workplace/fayeserver/vendor/bundle/ruby/2.3.0/gems/json-1.7.7/ext/json/ext/generator
+make "DESTDIR="
+compiling generator.c
+In file included from generator.c:1:0:
+../fbuffer/fbuffer.h: In function ‘fbuffer_to_s’:
+../fbuffer/fbuffer.h:175:47: error: macro "rb_str_new" requires 2 arguments, but only 1 given
+../fbuffer/fbuffer.h:175:20: warning: initialization makes integer from pointer without a cast [enabled by default]
+make: *** [generator.o] Error 1
+
+make failed, exit code 2

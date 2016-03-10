@@ -1,0 +1,15 @@
+current directory: /home/iforum/workplace/fayeserver/vendor/bundle/ruby/2.3.0/gems/faye-websocket-0.4.7/ext/faye_websocket_mask
+/home/iforum/.rvm/rubies/ruby-2.3.0/bin/ruby -r ./siteconf20160310-22515-xpnvj3.rb extconf.rb
+creating Makefile
+
+current directory: /home/iforum/workplace/fayeserver/vendor/bundle/ruby/2.3.0/gems/faye-websocket-0.4.7/ext/faye_websocket_mask
+make "DESTDIR=" clean
+
+current directory: /home/iforum/workplace/fayeserver/vendor/bundle/ruby/2.3.0/gems/faye-websocket-0.4.7/ext/faye_websocket_mask
+make "DESTDIR="
+compiling faye_websocket_mask.c
+linking shared-object faye_websocket_mask.so
+
+current directory: /home/iforum/workplace/fayeserver/vendor/bundle/ruby/2.3.0/gems/faye-websocket-0.4.7/ext/faye_websocket_mask
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 faye_websocket_mask.so ./.gem.20160310-22515-1yeahzl

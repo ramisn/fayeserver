@@ -1,0 +1,20 @@
+current directory: /home/iforum/workplace/fayeserver/vendor/bundle/ruby/2.3.0/gems/eventmachine-1.0.4/ext/fastfilereader
+/home/iforum/.rvm/rubies/ruby-2.3.0/bin/ruby -r ./siteconf20160310-22515-16f6lls.rb extconf.rb --with-cppflags=-I/usr/local/opt/openssl/include
+creating Makefile
+
+current directory: /home/iforum/workplace/fayeserver/vendor/bundle/ruby/2.3.0/gems/eventmachine-1.0.4/ext/fastfilereader
+make "DESTDIR=" clean
+
+current directory: /home/iforum/workplace/fayeserver/vendor/bundle/ruby/2.3.0/gems/eventmachine-1.0.4/ext/fastfilereader
+make "DESTDIR="
+compiling rubymain.cpp
+cc1plus: warning: command line option ‘-Wdeclaration-after-statement’ is valid for C/ObjC but not for C++ [enabled by default]
+cc1plus: warning: command line option ‘-Wimplicit-function-declaration’ is valid for C/ObjC but not for C++ [enabled by default]
+compiling mapper.cpp
+cc1plus: warning: command line option ‘-Wdeclaration-after-statement’ is valid for C/ObjC but not for C++ [enabled by default]
+cc1plus: warning: command line option ‘-Wimplicit-function-declaration’ is valid for C/ObjC but not for C++ [enabled by default]
+linking shared-object fastfilereaderext.so
+
+current directory: /home/iforum/workplace/fayeserver/vendor/bundle/ruby/2.3.0/gems/eventmachine-1.0.4/ext/fastfilereader
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 fastfilereaderext.so ./.gem.20160310-22515-16xaq1e
